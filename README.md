@@ -1,12 +1,26 @@
-# React + Vite
+# Blade & Soul Neo Boss Timer
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A web app to track boss timers across multiple channels in Blade & Soul using React & TailwindCSS
 
-Currently, two official plugins are available:
+## Description
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Start countdown timers for Channels 1 - 24 (5 min, 2 min, 8 min).
+- Timers count into negative values after reaching zero.
+- Highlights the closest-to-zero timer in red.
+- Uses React + Vite + Tailwind CSS for a modern, responsive UI.
 
-## Expanding the ESLint configuration
+## Getting Started
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+You can view/use the demo page at: https://tdnk-td.github.io/butworseofall-larry/
+
+### Dependencies
+
+* Node.js 
+* Tailwindcss
+
+### Installing
+
+```
+npm install
+npm run dev
+```
